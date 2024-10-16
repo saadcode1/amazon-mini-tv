@@ -1,9 +1,14 @@
 import React from 'react'
+import SimpleSlider from './SimplerSlider'
+import Movie from './Movie.jsx';
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+     <SimpleSlider/>
+      <Movie/>
+    </>
   )
 }
 
-export default Home
+export default Home;

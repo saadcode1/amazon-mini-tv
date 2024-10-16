@@ -1,0 +1,25 @@
+.custom-slider {
+    background-color: #e4d9d9; /* Customize arrows */
+    width: 100vw;
+    height: 17vw;
+}
+
+
+.img-div img{
+    width: 100vw;
+    height: 17vw; 
+}
+
+@media (max-width: 768px){
+    .custom-slider{
+        height: 40vw;
+    }
+
+    .img-div img{
+        width: 100vw;
+        height: 50vw; 
+    }
+}
+
+
+
